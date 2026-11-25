@@ -28,3 +28,4 @@ npm run dev
 `.env.local`은 Git에 커밋하지 않습니다. 브라우저 앱에서 사용하는 publishable key는 사용자에게 노출되는 공개 키이며, 비밀 키나 `service_role` 키를 프론트엔드에 넣으면 안 됩니다. 이 실습의 anon RLS 정책은 누구나 기록을 읽고 추가하고 삭제할 수 있게 하므로, 데이터는 비공개가 아닙니다. 실제 개인 일기 서비스로 배포하기 전에는 인증과 사용자별 RLS 정책을 적용해야 합니다.
 
 자세한 데이터베이스 설정은 [guide.md](./guide.md)를 참고하세요.
+https://chipper-frangollo-f9be33.netlify.app/
